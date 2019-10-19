@@ -3,6 +3,7 @@ html {
   font-family: Georgia, serif;
   color: #2f2d13;
   line-height: 1.5;
+  max-width: 400px;
 }
 
 *, *::before, *::after {
@@ -16,13 +17,13 @@ body {
 h1 {
   text-align: center;
   font-size: 3rem;
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   color: #b20953;
   margin: 0;
 }
 
 h2 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   color: #b20953;
   font-size: 1.875rem;
 }
@@ -34,31 +35,36 @@ em {
 
 header {
   background-color: #ffe500;
-  padding: 0 .75em .3em;
+  padding-bottom: .5em;
 }
 
 footer {
   background-color: #ffe500;
-  font-size: 0.75rem;
   text-align: center;
   padding: .75em;
+  font-size: 1rem;
 }
 
 ul {
+  display: inline-block;
   margin: 0;
   padding: 0 .75em;
+  max-width: 400px;
+  margin-top: .3em;
 }
 
 li {
   display: inline-block;
   list-style: none;
+  text-align: center;
 }
 
 a {
+  font-size: 1.125rem;
   color: #fff;
   background-color: #b2a212;
   text-decoration: none;
-  padding: .2em .5em .3em;
+  padding: .4em;
   border-radius: 4px;
 }
 
@@ -71,10 +77,11 @@ a:hover {
 }
 
 main {
-  padding: .2em .5em .3em;
+  padding: .2em .5em 0;
 }
 
 img {
   display: block;
   width: 100%;
+  padding: 0 .4em;
 }
