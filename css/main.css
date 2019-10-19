@@ -73,3 +73,8 @@ a:hover {
 main {
   padding: .2em .5em .3em;
 }
+
+img {
+  display: block;
+  width: 100%;
+}
